@@ -37,7 +37,7 @@ def returnProb():
     to_predict_list.append(int(request.args['PhysicalHealth']))
     to_predict_list.append(int(request.args['MentalHealth']))
     to_predict_list.append(int(request.args['DiffWalking']))
-    to_predict_list.append(int(request.args['sex']))
+    to_predict_list.append(int(request.args['Sex']))
     to_predict_list.append(int(request.args['AgeCategory']))
     to_predict_list.append(int(request.args['Diabetic']))
     to_predict_list.append(int(request.args['PhysicalActivity']))
